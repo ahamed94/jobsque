@@ -7,9 +7,11 @@ environment:
   sdk: '>=3.4.1 <4.0.0'
 
 dependencies:
+  cupertino_onboarding: ^1.2.0
   flutter:
     sdk: flutter
   flutter_svg: ^2.0.10+1
+  introduction_screen: ^3.1.14
 
 
 
@@ -20,6 +22,28 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  fonts:
+    - family: SF Pro Display
+      fonts:
+        - asset: assets/fonts/sf_pro_display/1-SF-Pro-Display-Thin.otf
+          weight: 100
+        - asset: assets/fonts/sf_pro_display/2-SF-Pro-Display-Ultralight.otf
+          weight: 200
+        - asset: assets/fonts/sf_pro_display/3-SF-Pro-Display-Light.otf
+          weight: 300
+        - asset: assets/fonts/sf_pro_display/4-SF-Pro-Display-Regular.otf
+          weight: 400
+        - asset: assets/fonts/sf_pro_display/5-SF-Pro-Display-Medium.otf
+          weight: 500
+        - asset: assets/fonts/sf_pro_display/6-SF-Pro-Display-Semibold.otf
+          weight: 600
+        - asset: assets/fonts/sf_pro_display/7-SF-Pro-Display-Bold.otf
+          weight: 700
+        - asset: assets/fonts/sf_pro_display/8-SF-Pro-Display-Heavy.otf
+          weight: 800
+        - asset: assets/fonts/sf_pro_display/9-SF-Pro-Display-Black.otf
+          weight: 900
 
   assets:
     - assets/images/
